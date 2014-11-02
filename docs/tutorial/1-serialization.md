@@ -147,7 +147,7 @@ The first part of the serializer class defines the fields that get serialized/de
 
 Notice that we can also use various attributes that would typically be used on form fields, such as `widget=widgets.Textarea`.  These can be used to control how the serializer should render when displayed as an HTML form.  This is particularly useful for controlling how the browsable API should be displayed, as we'll see later in the tutorial.
 
-We can actually also save ourselves some time by using the `ModelSerializer` class, as we'll see later, but for now we'll keep our serializer definition explicit.  
+We can actually also save ourselves some time by using the `ModelSerializer` class, as we'll see later, but for now we'll keep our serializer definition explicit.
 
 ## Working with Serializers
 

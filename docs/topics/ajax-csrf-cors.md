@@ -10,7 +10,7 @@ If you’re building a JavaScript client to interface with your Web API, you'll 
 
 AJAX requests that are made within the same context as the API they are interacting with will typically use `SessionAuthentication`.  This ensures that once a user has logged in, any AJAX requests made can be authenticated using the same session-based authentication that is used for the rest of the website.
 
-AJAX requests that are made on a different site from the API they are communicating with will typically need to use a non-session-based authentication scheme, such as `TokenAuthentication`. 
+AJAX requests that are made on a different site from the API they are communicating with will typically need to use a non-session-based authentication scheme, such as `TokenAuthentication`.
 
 ## CSRF protection
 
@@ -19,7 +19,7 @@ AJAX requests that are made on a different site from the API they are communicat
 To guard against these type of attacks, you need to do two things:
 
 1. Ensure that the 'safe' HTTP operations, such as `GET`, `HEAD` and `OPTIONS` cannot be used to alter any server-side state.
-2. Ensure that any 'unsafe' HTTP operations, such as `POST`, `PUT`, `PATCH` and `DELETE`, always require a valid CSRF token. 
+2. Ensure that any 'unsafe' HTTP operations, such as `POST`, `PUT`, `PATCH` and `DELETE`, always require a valid CSRF token.
 
 If you're using `SessionAuthentication` you'll need to include valid CSRF tokens for any `POST`, `PUT`, `PATCH` or `DELETE` operations.
 
