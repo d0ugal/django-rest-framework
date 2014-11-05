@@ -4,7 +4,13 @@
 
 **Awesome web-browseable Web APIs.**
 
-**Note**: Full documentation for the project is available at [http://www.django-rest-framework.org][docs].
+Full documentation for the project is available at [http://www.django-rest-framework.org][docs].
+
+---
+
+**Note**: The incoming 3.0 version has now been merged to the `master` branch on GitHub. For the source of the currently available PyPI version, please see the `2.4.4` tag.
+
+---
 
 # Overview
 
@@ -27,7 +33,7 @@ There is a live example API for testing purposes, [available here][sandbox].
 # Requirements
 
 * Python (2.6.5+, 2.7, 3.2, 3.3, 3.4)
-* Django (1.4.2+, 1.5, 1.6, 1.7)
+* Django (1.4.11+, 1.5.5+, 1.6, 1.7)
 
 # Installation
 
