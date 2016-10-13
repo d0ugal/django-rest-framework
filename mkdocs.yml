@@ -4,7 +4,6 @@ site_description: Django REST framework - Web APIs for Django
 
 repo_url: https://github.com/tomchristie/django-rest-framework
 
-theme_dir: docs_theme
 
 markdown_extensions:
  - toc:
@@ -21,6 +20,9 @@ pages:
     - '5 - Relationships and hyperlinked APIs': 'tutorial/5-relationships-and-hyperlinked-apis.md'
     - '6 - Viewsets and routers': 'tutorial/6-viewsets-and-routers.md'
     - '7 - Schemas and client libraries': 'tutorial/7-schemas-and-client-libraries.md'
+    # Duplicating a page under a further level of navigation nesting as a test.
+    - Testing:
+        - '7 - Schemas and client libraries': 'tutorial/7-schemas-and-client-libraries.md'
  - API Guide:
     - 'Requests': 'api-guide/requests.md'
     - 'Responses': 'api-guide/responses.md'
